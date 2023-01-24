@@ -4,9 +4,9 @@ function Home() {
   return (
     <>
 
-      <div className="gif">
-      </div>
       <div className='container'>
+        <div className="gif">
+        </div>
         <h1 className="title">Welcome to Future Laugh</h1>
 
         <div className="typewriter">

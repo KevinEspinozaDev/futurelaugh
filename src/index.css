@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Robot';
+  src: local('Robot'), url(./assets/fonts/Robot_Font.otf) format('woff');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+
+:root {
+  font-family: Robot;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+a{
+  font-style: unset;
+  text-decoration: none;
+  color: unset;
+}
+
+.title{
+  color: #f2f2f2ff;
+  text-align: center;
+}

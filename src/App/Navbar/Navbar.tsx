@@ -40,9 +40,9 @@ function Navbar (){
             </div>
 
             <div
-            className={
-                isNavExpanded ? "navigation-menu expanded fadein" : "navigation-menu fadeout"
-            }    
+            className={"navigation-menu "+
+                (isNavExpanded === true ? "expanded fadein" : "fadeout")
+            }
             >
                 <ul>
                     <li>

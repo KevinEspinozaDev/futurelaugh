@@ -2,6 +2,7 @@ import { useState } from 'react';
 import './App.css';
 import Navbar from './Navbar/Navbar';
 import RouterOutlet from './Routes/RouterOutlet';
+import Footer from './Footer/Footer';
 
 function App() {
 
@@ -14,6 +15,8 @@ function App() {
       <div className="mainContainer">
         <RouterOutlet />
       </div>
+
+      <Footer />
     </>
   )
 }

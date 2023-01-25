@@ -25,6 +25,8 @@
 body{
   margin: 0px;
   padding: 0px;
+  line-height: 1.2em;
+
 }
 
 a{
@@ -36,4 +38,9 @@ a{
 .title{
   color: #f2f2f2ff;
   text-align: center;
+}
+
+.-bgPrimary{
+  background-color: #133ee5ff;
+  color: #f2f2f2ff;
 }

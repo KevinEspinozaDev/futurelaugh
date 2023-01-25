@@ -10,7 +10,6 @@
 
 .gif{
     width: 100%;
-    height: -webkit-fill-available;
     background-image: url('../../assets/earth.gif');
     position: absolute;
     background-size: cover;

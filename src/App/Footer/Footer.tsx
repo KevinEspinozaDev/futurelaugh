@@ -1,12 +1,11 @@
 import './Footer.css'
 import imageLinkedin from './../../assets/linkedin.png'
-import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
     <>
     <footer className="footer -bgPrimary">
-      <h1 className='title'>Future Laugh Technologies</h1>
+      <h1 className='-title'>Future Laugh Technologies</h1>
 
       <div className="buttons">
         <p>Find us in</p>
@@ -20,7 +19,7 @@ function Footer() {
       </div>
 
       <div className="rights">
-        Copyright @2023 FutureLaugh. All rights reserved.
+        Copyright @2023 Future Laugh. All rights reserved.
       </div>
     </footer>
 

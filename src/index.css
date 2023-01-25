@@ -6,7 +6,7 @@
 }
 
 :root {
-  font-family: Robot;
+  font-family: Robot !important;
   font-size: 18px;
   line-height: 20px;
   font-weight: 400;
@@ -22,6 +22,11 @@
   -webkit-text-size-adjust: 100%;
 }
 
+button{
+  font-family: Robot;
+  font-size: 1em;
+}
+
 body{
   margin: 0px;
   padding: 0px;
@@ -30,17 +35,102 @@ body{
 }
 
 a{
-  font-style: unset;
   text-decoration: none;
   color: unset;
+  height: unset;
 }
 
-.title{
+.-title{
   color: #f2f2f2ff;
   text-align: center;
+  font-size: 2.2em;
 }
+.-titleBlack{
+  color: #242424;
+  text-align: center;
+  font-size: 2.2em;
+}
+.-subtitle{
+  color: #f2f2f2ff;
+}
+.-subtitleBlack{
+  color: #242424;
+}
+
+
+.-cardSection{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.-card{
+  background-color: #133ee5ff;
+  width: 100%;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.-card>img{
+  width: 100%;
+  margin-bottom: 16px;
+}
+.-cardBtnSection{
+  display: flex;
+  justify-content: center;
+}
+.-cardBtnSection>a{
+  margin-left: 32px;
+}
+
 
 .-bgPrimary{
   background-color: #133ee5ff;
   color: #f2f2f2ff;
+}
+.-bgWhite{
+  background-color: #f2f2f2ff;
+}
+.-btn{
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+}
+.-btnPrimary{
+  background-color: #133ee5ff;
+  color: #f2f2f2ff;
+}
+.-btnPrimary:hover{
+  background-color: rgb(13, 49, 196);
+}
+.-btnWhite{
+  background-color: #f2f2f2ff;
+  color: #242424;
+}
+.-btnWhite:hover{
+  background-color: rgb(206, 206, 206);
+}
+.-btn:hover{
+
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  .-cardSection{
+    width: 96%;
+    height: auto;
+  }
+  .card{
+    width: 90%;
+  }
+
 }

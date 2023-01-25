@@ -5,17 +5,20 @@ function Home() {
     <>
 
       <div className='container'>
-        <div className="gif">
-        </div>
-        <h1 className="title">Welcome to Future Laugh</h1>
+        <div className="intro">
 
-        <div className="typewriter">
+          <div className="gif">
+          </div>
+          <h1 className="-title">Welcome to Future Laugh</h1>
 
-          <p>
-              "Laugh to the future" 
-          </p>
+          <div className="typewriter">
+
+            <p>
+                "Laugh to the future" 
+            </p>
+          </div>
         </div>
-      </div>
+        </div>
 
     </>
     

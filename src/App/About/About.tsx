@@ -25,7 +25,7 @@ function About() {
           </div>
         </div>
 
-        <section className='projects -bgWhite'>
+        <section className='section -bgWhite'>
           <h1 className="-titleBlack">Our Projects</h1>
 
           <div className="-cardSection">
@@ -58,7 +58,7 @@ function About() {
 
         </section>
 
-        <section className="projects -bgWhite">
+        <section className="section -bgWhite">
           <h1 className="-titleBlack">Staff</h1>
 
           <ul className='-subtitleBlack'>

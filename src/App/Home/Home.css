@@ -9,9 +9,8 @@
 
 .gif{
     width: 100%;
-    height: 110%;
+    height: 100%;
     background-image: url('../../assets/earth.gif');
-    position: absolute;
     background-size: cover;
     background-position: center;
     filter: brightness(40%);
@@ -44,8 +43,5 @@ to { width: 55% }
   }
 
 @media screen and (max-width: 768px) {
-    .gif{
-        width: 100%;
-        background-position: 47%;
-    }
+    
 }

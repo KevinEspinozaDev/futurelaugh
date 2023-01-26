@@ -41,7 +41,10 @@
 }
 
 .btnVisit{
-    width: 80px;
+    width: 84px;
+}
+.btnDescription{
+    align-self: flex-end;
 }
 
 @media screen and (max-width: 768px) {

@@ -47,7 +47,7 @@ function About() {
                     </svg>
 
 
-                    <span>Visit</span>
+                    <span className='btnDescription'>Visit</span>
                   </button>
 
                 </a>
@@ -62,7 +62,7 @@ function About() {
           <h1 className="-titleBlack">Staff</h1>
 
           <ul className='-subtitleBlack'>
-            <li>Kevin Espinoza - CEO and Fullstack Development</li>
+            <li>Kevin Espinoza - CEO and Software Developer</li>
           </ul>
         </section>
 

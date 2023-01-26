@@ -1,9 +1,7 @@
 .mainContainer{
-    padding: 0px 32px;
+    padding: 0px;
 }
 
-@media screen and (max-width: 768px) {
-    .mainContainer{
-        padding: 0px;
-    }
+@media screen and (min-width: 768px) {
+    
 }

@@ -1,10 +1,11 @@
 function Contact() {
   return (
     <>
-      <h1 className="title">Contact</h1>
-      <hr />
-
-      <p>Welcome to Contact section of Future Laugh!</p>
+      <div>
+        <h1 className="-title">Contact</h1>
+        <p>You can find us in diferent social media</p>
+      
+      </div>
     </>
   )
 }

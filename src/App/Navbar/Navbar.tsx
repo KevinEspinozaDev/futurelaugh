@@ -14,13 +14,13 @@ function Navbar (){
 
             <div className="navbar">
 
-                <a href="/">
+                <Link to="/">
 
                     <div className="logo">
                         <img src={futureLaughLogo} alt="Logo Future Laugh" width={60} height={60}/>
                         <h2>Future Laugh</h2>
                     </div>
-                </a>
+                </Link>
 
                 <button className="hamburger"
                 onClick={() => {
@@ -52,7 +52,7 @@ function Navbar (){
                         <Link to={'/about'} className="link">About</Link>
                     </li>
                     <li>
-                        <Link to={'/contact'} className="link">Contact</Link>
+                        <a href='#footer' className="link">Contact</a>
                     </li>
                 </ul>
                 

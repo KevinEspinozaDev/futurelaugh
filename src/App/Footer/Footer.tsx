@@ -10,7 +10,7 @@ import futureLaughLogo from './../../assets/futurelaughlogo.png';
 function Footer() {
   return (
     <>
-    <footer className="footer">
+    <footer className="footer" id='footer'>
 
       <section className="firstFooter -bgPrimary">
 

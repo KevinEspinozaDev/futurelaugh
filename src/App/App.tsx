@@ -22,7 +22,7 @@ import logo from './../assets/logo.gif';
 */}
 function App() {
 
-  const audio: Partial<HTMLAudioElement> = document.getElementById('audio')!;
+  const audio: any = document.getElementById('audio');
 
   const pause = () => {
     audio.pause();

@@ -4,7 +4,7 @@ import './Footer.css'
 
 import imageLinkedin from './../../assets/linkedin.png';
 import imageInstagram from './../../assets/instagram.png';
-import futureLaughLogo from './../../assets/futurelaughlogo.png';
+import futureLaughLogo from './../../assets/logo.png';
 
 
 function Footer() {

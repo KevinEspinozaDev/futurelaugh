@@ -1,5 +1,5 @@
 import "./Navbar.css"
-import futureLaughLogo from './../../assets/futurelaughlogo.png';
+import futureLaughLogo from './../../assets/logo.png';
 import { useState } from "react";
 import { Link} from 'react-router-dom';
 

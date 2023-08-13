@@ -62,7 +62,7 @@ function About() {
           <h1 className="-titleBlack">Staff</h1>
 
           <ul className='-subtitleBlack'>
-            <li>Kevin Espinoza - CEO and Software Developer</li>
+            <li>Kevin Espinoza - Founder and Software Developer</li>
           </ul>
         </section>
 

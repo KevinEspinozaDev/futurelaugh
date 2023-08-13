@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'Robot';
   src: local('Robot'), url(./assets/fonts/Robot_Font.otf) format('woff');
-  /* other formats include: 'woff2', 'truetype, 'opentype',
-                            'embedded-opentype', and 'svg' */
+  /* other formats include: 'woff2', 'truetype, 'opentype',                           'embedded-opentype', and 'svg' */
 }
+
 
 :root {
   font-family: Robot !important;
@@ -76,7 +76,7 @@ li{
   margin-bottom: 16px;
 }
 .-card{
-  background-color: #133ee5ff;
+  background-color: #1F5EBB;
   width: 100%;
   padding: 16px;
   display: flex;
@@ -98,25 +98,35 @@ li{
 
 
 .-bgPrimary{
-  background-color: #133ee5ff;
+  background-color: #1F5EBB;
+  color: #f2f2f2ff;
+}
+.bgPrimaryDark{
+  background-color: #1a4fa0;
+}
+.-bgSecondary{
+  background-color: #1fbb7a;
   color: #f2f2f2ff;
 }
 .-bgWhite{
   background-color: #f2f2f2ff;
 }
 .-btn{
-  padding: 8px;
+  padding: 10px;
+  border-radius: 0px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   border: none;
+
+  box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.384);
 }
 .-btnPrimary{
-  background-color: #133ee5ff;
+  background-color: #1F5EBB;
   color: #f2f2f2ff;
 }
 .-btnPrimary:hover{
-  background-color: rgb(13, 49, 196);
+  background-color: #1a4fa0;
 }
 .-btnWhite{
   background-color: #f2f2f2ff;
@@ -125,10 +135,6 @@ li{
 .-btnWhite:hover{
   background-color: rgb(206, 206, 206);
 }
-.-btn:hover{
-
-}
-
 
 
 

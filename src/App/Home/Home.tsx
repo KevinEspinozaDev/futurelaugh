@@ -11,12 +11,12 @@ function Home() {
           </div>
           <h1 className="-title">Welcome to Future Laugh</h1>
 
-          <div className="typewriter">
-
+          <div className='container'>
             <p>
                 "Laugh to the future" 
             </p>
           </div>
+
         </div>
       </div>
 

@@ -45,14 +45,14 @@ function Navbar (){
             }
             >
                 <ul>
-                    <li>
-                        <Link to={'/home'} className="link">Home</Link>
+                    <li className="link">
+                        <Link to={'/home'}>Home</Link>
                     </li>
-                    <li>
-                        <Link to={'/about'} className="link">About</Link>
+                    <li className="link">
+                        <Link to={'/about'}>About</Link>
                     </li>
-                    <li>
-                        <a href='#footer' className="link">Contact</a>
+                    <li className="link">
+                        <a href='#footer'>Contact</a>
                     </li>
                 </ul>
                 

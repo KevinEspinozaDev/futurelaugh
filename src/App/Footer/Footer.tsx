@@ -22,7 +22,7 @@ function Footer() {
 
       <section className="secondFooter -bgPrimary">
         <h1 className='-title'>The Company</h1>
-        <Link className='-btn -btnWhite' to={'/about'}>About Page</Link>
+        <Link className='-btn -btnWhite' to={'/about'}>About Future Laugh</Link>
       </section>
 
       <div className="thirdFooter">

@@ -57,20 +57,21 @@
     display: flex;
     background-color: #1F5EBB;
     width: 100%;
-    padding: 0;
+    padding: 0px;
     margin: 0px;
 }
-.navigation-menu li {
+.navigation-menu ul li {
     list-style-type: none;
-    margin: 0 1rem;
+    margin: 0 0;
 }
-.navigation-menu li .link {
-    display: block;
-    width: 100%;
+.navigation-menu ul li {
+    padding: 16px;
+    margin-right: 16px;
     background-color: #1F5EBB;
 }
-.navigation-menu li .link:hover {
+.navigation-menu ul li:hover {
     background-color: #1c55aa !important;
+    cursor: pointer;
 }
 
 /**********************************/
@@ -132,6 +133,11 @@
         */
         width: 100%;
         padding: 1.5rem 0;
+      }
+      .navigation-menu li.link{
+        padding: 16px;
+        margin-right: 0px !important;
+        width: 100%;
       }
 
       .navigation-menu.expanded ul {

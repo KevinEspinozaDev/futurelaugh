@@ -1,5 +1,7 @@
 import './About.css';
-import captureLoomloo from './../../assets/captureloomloo.png';
+import captureLoomloo from './../../assets/captureloomloo.jpg';
+import captureVrAssistant from './../../assets/capturevrassistant.jpg';
+import captureqrCodeFast from './../../assets/captureqrcodefast.jpg';
 
 function About() {
   return (
@@ -30,13 +32,13 @@ function About() {
 
           <div className="-cardSection">
             <div className="-card">
-              <h2 className="-subtitle">loomloo</h2>
+              <h2 className="-subtitle">VR assistant</h2>
 
-              <img src={captureLoomloo} alt="loomloo" />
+              <img src={captureVrAssistant} alt="Vr assistant" width={480} height={280}/>
 
               <div className="-cardBtnSection">
 
-                <a href="https://loomloo.vercel.app/">
+                <a href="https://vr-assistant.vercel.app/">
 
                   <button className="-btn btnVisit -btnWhite">
                     <svg fill="white" xmlns="http://www.w3.org/2000/svg" 
@@ -54,6 +56,33 @@ function About() {
               </div>
 
             </div>
+
+            <div className="-card">
+              <h2 className="-subtitle">QR Code Fast</h2>
+
+              <img src={captureqrCodeFast} alt="QR Code Fast" width={480} height={280}/>
+
+              <div className="-cardBtnSection">
+
+                <a href="https://qrcode-fast.vercel.app/">
+
+                  <button className="-btn btnVisit -btnWhite">
+                    <svg fill="white" xmlns="http://www.w3.org/2000/svg" 
+                    viewBox="0 0 24 24"
+                    width={20} height={20}
+                    > 
+                      <path d="M21 11V3h-8v2h4v2h-2v2h-2v2h-2v2H9v2h2v-2h2v-2h2V9h2V7h2v4h2zM11 5H3v16h16v-8h-2v6H5V7h6V5z" fill="currentColor"/> 
+                    </svg>
+
+
+                    <span className='btnDescription'>Visit</span>
+                  </button>
+
+                </a>
+              </div>
+
+            </div>
+
           </div>
 
         </section>

@@ -48,6 +48,11 @@
 .staffList > li{
     margin-bottom: 16px;
     font-size: 1.1em;
+
+    .staffDescription{
+        font-size: 0.8em;
+        color: #575757;
+    }
 }
 
 .btnVisit{

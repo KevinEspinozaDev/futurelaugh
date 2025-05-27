@@ -91,7 +91,10 @@ function About() {
           <h1 className="-titleBlack">Staff</h1>
 
           <ul className='-subtitleBlack staffList'>
-            <li>Kevin Espinoza - Founder and Software Developer</li>
+            <li>
+              Kevin Espinoza
+              <p className='staffDescription'>Founder and Software Developer</p>
+            </li>
           </ul>
         </section>
 

@@ -64,7 +64,7 @@ function About() {
 
               <div className="-cardBtnSection">
 
-                <a href="https://qrcode-fast.vercel.app/">
+                <a href="https://www.qrocket.space/">
 
                   <button className="-btn btnVisit -btnWhite">
                     <svg fill="white" xmlns="http://www.w3.org/2000/svg" 

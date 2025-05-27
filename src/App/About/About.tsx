@@ -28,13 +28,13 @@ function About() {
         </div>
 
         <section className='section -bgWhite'>
-          <h1 className="-titleBlack">Our Projects</h1>
+          <h1 className="-titleBlack mt-5">Our Projects</h1>
 
           <div className="-cardSection">
             <div className="-card">
               <h2 className="-subtitle">VR assistant</h2>
 
-              <img src={captureVrAssistant} alt="Vr assistant" width={480} height={280}/>
+              <img src={captureVrAssistant} alt="Vr assistant" className="imgResponsive"/>
 
               <div className="-cardBtnSection">
 
@@ -60,7 +60,7 @@ function About() {
             <div className="-card">
               <h2 className="-subtitle">QR Code Fast</h2>
 
-              <img src={captureqrCodeFast} alt="QR Code Fast" width={480} height={280}/>
+              <img src={captureqrCodeFast} alt="QR Code Fast" className="imgResponsive"/>
 
               <div className="-cardBtnSection">
 
@@ -87,10 +87,10 @@ function About() {
 
         </section>
 
-        <section className="section -bgWhite">
+        <section className="section -bgWhite pt-3 pb-3">
           <h1 className="-titleBlack">Staff</h1>
 
-          <ul className='-subtitleBlack'>
+          <ul className='-subtitleBlack staffList'>
             <li>Kevin Espinoza - Founder and Software Developer</li>
           </ul>
         </section>

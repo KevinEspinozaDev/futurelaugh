@@ -45,11 +45,21 @@
     font-size: 1.1em;
 }
 
+.staffList > li{
+    margin-bottom: 16px;
+    font-size: 1.1em;
+}
+
 .btnVisit{
     width: 84px;
 }
 .btnDescription{
     align-self: flex-end;
+}
+
+.imgResponsive {
+    max-width: 92%;
+    height: auto;
 }
 
 @media screen and (max-width: 768px) {

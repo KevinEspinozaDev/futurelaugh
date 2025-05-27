@@ -3,7 +3,7 @@ function Contact() {
     <>
       <div>
         <h1 className="-title">Contact</h1>
-        <p>You can find us in diferent social media</p>
+        <p>You can find us in different social media</p>
       
       </div>
     </>

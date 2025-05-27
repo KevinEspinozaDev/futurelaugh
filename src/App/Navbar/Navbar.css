@@ -75,22 +75,6 @@
 }
 
 /**********************************/
-.fadein{
-
-}
-/*
-@keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-}
-.fadeout{
-    animation: fadeOut 1s;
-}
-@keyframes fadeOut {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-}/*
-/* The animation code */
 
 /*********** PHONES ************/
 @media screen and (max-width: 768px) {
@@ -135,7 +119,10 @@
         padding: 1.5rem 0;
       }
       .navigation-menu li.link{
-        padding: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 16px 0px;
         margin-right: 0px !important;
         width: 100%;
       }

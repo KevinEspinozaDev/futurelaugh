@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import './Footer.css'
 
 import imageLinkedin from './../../assets/linkedin.png';
-import imageInstagram from './../../assets/instagram.png';
+import imageInstagram from './../../assets/instagram2.png';
 import futureLaughLogo from './../../assets/logo.png';
 
 
@@ -27,15 +27,15 @@ function Footer() {
 
       <div className="thirdFooter">
         <div className="aSocialMedia">
-          <img src={imageLinkedin} alt="Linkedin" width={30} height={30}/>
           <a href="https://www.linkedin.com/company/88438575">
+            <img src={imageLinkedin} alt="Linkedin" width={30} height={30}/>
             <span className='descriptionSocialMedia'>LinkedIn</span>
           </a>
         </div>
 
         <div className="aSocialMedia">
-          <img src={imageInstagram} alt="Instagram" width={35} height={35}/>
-          <a href="https://www.instagram.com">
+          <a href="https://www.instagram.com/futurelaughofficial/">
+            <img src={imageInstagram} alt="Instagram" width={28} height={28}/>
             <span className='descriptionSocialMedia'>Instagram</span>
           </a>
         </div>
@@ -43,7 +43,7 @@ function Footer() {
 
       <section className="lastFooter">
         <img src={futureLaughLogo} alt="Logo Future Laugh" width={60} height={60}/>
-        <p>2023 Future Laugh. All Rights Reserved.</p>
+        <p>2025 Future Laugh Software. All Rights Reserved.</p>
       </section>
 
 

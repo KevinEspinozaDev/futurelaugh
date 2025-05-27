@@ -41,6 +41,11 @@
 .aSocialMedia{
     display: flex;
     align-items: center;
+
+    a {
+        display: flex;
+        align-items: center;
+    }
 }
 .descriptionSocialMedia{
     margin-left: 8px;

@@ -43,7 +43,8 @@ function Footer() {
 
       <section className="lastFooter">
         <img src={futureLaughLogo} alt="Logo Future Laugh" width={60} height={60}/>
-        <p>2025 Future Laugh Software. All Rights Reserved.</p>
+        <span className='mt-3'>2025 Future Laugh Software </span>
+        <span>All Rights Reserved.</span>
       </section>
 
 
